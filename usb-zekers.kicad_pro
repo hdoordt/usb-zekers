@@ -450,6 +450,11 @@
           "name": "JLCPCB Part No",
           "url": false,
           "visible": false
+        },
+        {
+          "name": "V_{max}",
+          "url": false,
+          "visible": true
         }
       ],
       "intersheets_ref_own_page": false,
@@ -498,6 +503,10 @@
     [
       "7110a4c6-f6ea-4cce-92c3-23db1cedb885",
       "User Interface"
+    ],
+    [
+      "82a98e61-1216-4b10-874c-49028a86b7b9",
+      "Power"
     ]
   ],
   "text_variables": {}

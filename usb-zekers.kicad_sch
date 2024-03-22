@@ -32,6 +32,23 @@
     )
   )
 
+  (sheet (at 168.275 111.76) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 82a98e61-1216-4b10-874c-49028a86b7b9)
+    (property "Sheetname" "Power" (at 168.275 111.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 168.275 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "usb-zekers"
+        (path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 172.085 66.675) (size 35.56 15.875) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
