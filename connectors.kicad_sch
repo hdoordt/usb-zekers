@@ -1631,6 +1631,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -2815,7 +2960,7 @@
 		)
 	)
 	(junction
-		(at 196.85 39.37)
+		(at 189.23 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3257e876-235e-42b8-8609-17941e375c27")
@@ -2825,6 +2970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f86f377-0283-4bf8-869f-2800af748947")
+	)
+	(junction
+		(at 180.34 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50fd66fd-9a67-407a-aaa4-debb595a6df7")
 	)
 	(junction
 		(at 64.77 119.38)
@@ -2837,6 +2988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7499ede8-732c-467a-afdd-8e9b381c0986")
+	)
+	(junction
+		(at 180.34 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0cd993b-6568-44f2-a1e5-6d0c15778a52")
 	)
 	(junction
 		(at 64.77 121.92)
@@ -2952,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 36.83) (xy 196.85 39.37)
+			(xy 189.23 29.21) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 41.91) (xy 210.82 41.91)
+			(xy 180.34 49.53) (xy 203.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3229,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 39.37) (xy 201.93 39.37)
+			(xy 203.2 40.64) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4250a8f1-2a7d-4bcf-9648-c3c535e18917")
+	)
+	(wire
+		(pts
+			(xy 189.23 31.75) (xy 194.31 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3092,13 +3259,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 45.72) (xy 187.96 41.91)
+			(xy 180.34 53.34) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55c0bd6c-4827-45f3-94df-375ddac991f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 180.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594b2aac-49af-48b9-8aa5-e487722b260e")
 	)
 	(wire
 		(pts
@@ -3202,6 +3379,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 43.18) (xy 203.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a82b8da-2102-47a1-9056-919ddc5705af")
+	)
+	(wire
+		(pts
 			(xy 62.23 116.84) (xy 64.77 116.84)
 		)
 		(stroke
@@ -3209,6 +3396,16 @@
 			(type default)
 		)
 		(uuid "8087e947-7190-4cdb-9242-3e513f4d3077")
+	)
+	(wire
+		(pts
+			(xy 203.2 31.75) (xy 203.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e000f2-fe88-4b30-b296-d59d42bca0ae")
 	)
 	(wire
 		(pts
@@ -3272,7 +3469,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 196.85 39.37)
+			(xy 180.34 44.45) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5e6aad-fb82-4150-bd56-44de7a8b8fba")
+	)
+	(wire
+		(pts
+			(xy 180.34 31.75) (xy 189.23 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3539,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 187.96 39.37)
+			(xy 180.34 29.21) (xy 180.34 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3352,13 +3559,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 39.37) (xy 210.82 39.37)
+			(xy 201.93 31.75) (xy 203.2 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7c01b6b-6e55-49fc-a19b-0dbf8bdd565b")
+	)
+	(wire
+		(pts
+			(xy 203.2 43.18) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96a7fcb-1a79-4815-8832-423d1e78b500")
 	)
 	(wire
 		(pts
@@ -3372,7 +3589,7 @@
 	)
 	(text "Vdrive must not exceed 15V, due to AMS1117"
 		(exclude_from_sim no)
-		(at 190.5 25.4 0)
+		(at 121.666 21.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3574,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 45.72 0)
+		(at 180.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3583,7 +3800,7 @@
 		(fields_autoplaced yes)
 		(uuid "01a3e2ce-f085-41ff-82a3-4c81d4531f02")
 		(property "Reference" "#PWR08"
-			(at 187.96 52.07 0)
+			(at 180.34 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 50.8 0)
+			(at 180.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 45.72 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 45.72 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 45.72 0)
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3923,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 196.85 36.83 0)
+		(at 189.23 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3715,7 +3932,7 @@
 		(fields_autoplaced yes)
 		(uuid "1362466f-7b07-4443-88e9-3b553f021941")
 		(property "Reference" "#FLG02"
-			(at 196.85 34.925 0)
+			(at 189.23 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3941,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 196.85 31.75 0)
+			(at 189.23 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3967,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3976,7 @@
 			)
 		)
 		(property "LCSC Part No" ""
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3985,7 @@
 			)
 		)
 		(property "JLCPCB Part No" ""
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3994,7 @@
 			)
 		)
 		(property "V_{max}" ""
-			(at 196.85 36.83 0)
+			(at 189.23 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4612,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 215.9 39.37 0)
+		(at 214.63 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4404,7 +4621,7 @@
 		(fields_autoplaced yes)
 		(uuid "627a04d2-251e-46d8-9f5a-b9ffcbd5b9c8")
 		(property "Reference" "J3"
-			(at 218.44 39.37 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4630,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 218.44 41.91 0)
+			(at 217.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 39.37 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 39.37 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 39.37 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,32 +4682,31 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 205.74 39.37 90)
+		(at 198.12 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9734520c-399b-47c8-92be-e1a323c00054")
 		(property "Reference" "F1"
-			(at 205.74 34.29 90)
+			(at 198.12 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 205.74 36.83 90)
+		(property "Value" "iMaXX-H7810"
+			(at 198.12 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 41.148 90)
+		(property "Footprint" "usb-zekers:iMaXX-H7810"
+			(at 198.12 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 39.37 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,12 +4724,38 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 39.37 0)
+			(at 198.12 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part No" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_{max}" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4526,6 +4768,102 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/88d8c56e-1b60-429e-b3ba-ff668aef6f82"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 180.34 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c3e4870c-6658-4279-928c-cdf8dfb05c9d")
+		(property "Reference" "D1"
+			(at 182.88 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLD15-018 "
+			(at 182.88 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "https://nl.mouser.com/datasheet/2/240/media-3323920.pdf"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part No" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_{max}" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e08fc6d0-4fc8-46ff-8116-073e4572f944")
+		)
+		(pin "2"
+			(uuid "da58f237-419d-4b5d-8d2c-0733293a51b8")
+		)
+		(instances
+			(project ""
+				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/88d8c56e-1b60-429e-b3ba-ff668aef6f82"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4819,7 +5157,7 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
-		(at 187.96 36.83 0)
+		(at 180.34 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4828,7 +5166,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8b6e3d-0a75-412d-b4df-ce33754e0639")
 		(property "Reference" "#PWR09"
-			(at 182.88 40.64 0)
+			(at 175.26 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5175,7 @@
 			)
 		)
 		(property "Value" "Vdrive"
-			(at 187.96 31.75 0)
+			(at 180.34 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +5192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +5201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +5210,7 @@
 			)
 		)
 		(property "LCSC Part No" ""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5219,7 @@
 			)
 		)
 		(property "JLCPCB Part No" ""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5228,7 @@
 			)
 		)
 		(property "V_{max}" ""
-			(at 187.96 36.83 0)
+			(at 180.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
