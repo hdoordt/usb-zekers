@@ -3208,6 +3208,16 @@
 		)
 		(uuid "ff5239b5-9aed-4814-aa05-7f21101de05d")
 	)
+	(text "TODO L2 should not be in parallel to 3v3 and gnd, this will short!"
+		(exclude_from_sim no)
+		(at 96.52 182.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "056e2ed6-7917-47ed-b3d5-ae94453b9bdd")
+	)
 	(text "- USB PD primer (TI): https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf?ts=1711082549009\n"
 		(exclude_from_sim no)
 		(at 27.94 27.94 0)
@@ -3254,6 +3264,16 @@
 			(href "https://www.st.com/resource/en/product_training/STM32G0-Peripheral-USB-Type-C-Power-Delivery-UCPD.pdf")
 		)
 		(uuid "c1db891f-1300-4953-980f-21a85fecd339")
+	)
+	(text "TODO: Check R23, R24 (maybe not needed), calculate C29 and C30\n"
+		(exclude_from_sim no)
+		(at 60.706 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de3efb25-94f2-4376-87ff-6ec74c76b849")
 	)
 	(text "TODO wire up VCONN using TCPP02-M18 (X-NUCLEO-SRC1M1)"
 		(exclude_from_sim no)
