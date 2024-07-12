@@ -4322,6 +4322,16 @@
 		)
 		(uuid "fd2c52f3-a233-4670-a381-ae4d020ba5a7")
 	)
+	(text "TODO replace 1uF with 4.7uF to match reference"
+		(exclude_from_sim no)
+		(at 44.958 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0be3cdb8-4239-4cc6-be92-3407598fde9e")
+	)
 	(text "R7:\nADDR0 = 0x74 =    0R\nADDR1 = 0x75 = 18.2k\nADDR2 = 0x76 = 34.0k\nADDR3 = 0x77 = 54.9k\n"
 		(exclude_from_sim no)
 		(at 30.48 134.62 0)
@@ -4354,6 +4364,46 @@
 		)
 		(uuid "3f4ee9e3-7e66-4984-8614-b406b1f15edf")
 	)
+	(text "TODO remove C8"
+		(exclude_from_sim no)
+		(at 224.79 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42b95b6d-1c0e-4973-ba0c-6fdf81d1229d")
+	)
+	(text "TODO remove this PFET"
+		(exclude_from_sim no)
+		(at 250.952 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53bcf26e-a84e-4b8a-81fc-6dd799312155")
+	)
+	(text "TODO: Add VSW1 label"
+		(exclude_from_sim no)
+		(at 150.368 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68e328f3-f8a5-4dfc-ab95-8046bd85ccc3")
+	)
+	(text "TODO add pull-up to CLIND and INT as they are open-drain"
+		(exclude_from_sim no)
+		(at 51.816 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c8797e0-a088-4247-a5a4-57c9e3007e7d")
+	)
 	(text "Design based on reference and datasheet: https://www.onsemi.com/pdf/datasheet/ncv81599-d.pdf"
 		(exclude_from_sim no)
 		(at 227.33 158.75 0)
@@ -4375,6 +4425,36 @@
 		)
 		(uuid "8c6a779f-6bc2-41ae-b3bd-d9af18dc5604")
 	)
+	(text "TODO add pull-down to bias EN to off\nOR add a voltage divider to allow disabling just switching\n(OFF: 0mV-530mV, only digital: 810mv-1.65V, switching: 2.15V-5V)"
+		(exclude_from_sim no)
+		(at 47.498 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92c8dcce-b1ff-46c7-93a1-c1f2fbc51ede")
+	)
+	(text "TODO connect V2 directly to V2 instead of 10R"
+		(exclude_from_sim no)
+		(at 139.954 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a96a8d9-a49c-42d3-807e-72646e6ee7eb")
+	)
+	(text "TODO: add shotkys from VDRV to BST1 and BST2"
+		(exclude_from_sim no)
+		(at 156.464 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6c1f9d3-ee04-4a2c-b411-fcacfde5a7e0")
+	)
 	(text "Q3, R13, and R14 seem to be optional?"
 		(exclude_from_sim no)
 		(at 240.03 29.21 0)
@@ -4385,6 +4465,36 @@
 			(justify left bottom)
 		)
 		(uuid "e7798a9c-f576-4dd8-bcb4-9db19b0cf97d")
+	)
+	(text "TODO: Chnage this divider to 10:1"
+		(exclude_from_sim no)
+		(at 177.038 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f179f8cd-5f84-4781-aaf0-51ae93af878e")
+	)
+	(text "TODO this is hard to follow maybe reorder parts a bit"
+		(exclude_from_sim no)
+		(at 56.642 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8f6d7ee-6838-400d-be76-2c8cafe15e99")
+	)
+	(text "TODO: Connect CS1 and CS2 up to your ADC to measure currents"
+		(exclude_from_sim no)
+		(at 44.45 166.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa7888fa-6971-4a0e-be2a-fe2b2c436cd8")
 	)
 	(text "Datasheet says 5mR, ref design 3mR for R9\n"
 		(exclude_from_sim no)
