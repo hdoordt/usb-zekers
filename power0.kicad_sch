@@ -4343,6 +4343,17 @@
 		)
 		(uuid "231f548d-9171-4105-9a24-8d292b3b665f")
 	)
+	(text "TODO \n- check and swap out Q1, Q2, Q3, Q4, Q5\n- Check pin numbers"
+		(exclude_from_sim no)
+		(at 222.25 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f4ee9e3-7e66-4984-8614-b406b1f15edf")
+	)
 	(text "Design based on reference and datasheet: https://www.onsemi.com/pdf/datasheet/ncv81599-d.pdf"
 		(exclude_from_sim no)
 		(at 227.33 158.75 0)
