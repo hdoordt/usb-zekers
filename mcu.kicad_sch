@@ -3230,18 +3230,6 @@
 		)
 		(uuid "71452907-9048-4fac-84ea-3339f615f969")
 	)
-	(text "- Notes on VCONN: https://developerhelp.microchip.com/xwiki/bin/view/applications/usb/typec-features/cc-vconn-signals/"
-		(exclude_from_sim no)
-		(at 27.94 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-			(href "https://developerhelp.microchip.com/xwiki/bin/view/applications/usb/typec-features/cc-vconn-signals/")
-		)
-		(uuid "7273c515-6206-4595-8685-091d76f3cb2b")
-	)
 	(text "TODO: verify i2c pullup resistance value"
 		(exclude_from_sim no)
 		(at 190.5 133.35 0)

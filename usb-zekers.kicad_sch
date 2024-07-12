@@ -330,16 +330,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 181.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e1c9fe-63e9-4d4f-8ed7-9252b6fe5735")
-	)
-	(wire
-		(pts
 			(xy 76.2 133.35) (xy 76.2 137.16)
 		)
 		(stroke
@@ -367,16 +357,6 @@
 			(type default)
 		)
 		(uuid "87a17cfa-56ba-4ecd-8cd3-4df38dcde256")
-	)
-	(wire
-		(pts
-			(xy 181.61 102.87) (xy 181.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892a3990-2832-4c35-9dd8-f7d3e91ea2df")
 	)
 	(bus
 		(pts
@@ -800,6 +780,44 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 120.65)
+		(size 35.56 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bdeb972-b5c6-4f8c-8946-d621fdfe7339")
+		(property "Sheetname" "VCONN"
+			(at 161.29 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vconn.kicad_sch"
+			(at 161.29 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usb-zekers"
+				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc"
+					(page "7")
 				)
 			)
 		)

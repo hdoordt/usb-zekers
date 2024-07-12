@@ -612,6 +612,10 @@
     [
       "82a98e61-1216-4b10-874c-49028a86b7b9",
       "Power"
+    ],
+    [
+      "8bdeb972-b5c6-4f8c-8946-d621fdfe7339",
+      "VCONN"
     ]
   ],
   "text_variables": {}
