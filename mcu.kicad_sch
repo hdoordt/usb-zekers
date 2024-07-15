@@ -2309,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 73.66 78.74)
+			(xy 68.58 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2399,16 +2399,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 81.28 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28bb38f3-e372-4c52-b8ec-230e46187b04")
-	)
-	(wire
-		(pts
 			(xy 58.42 167.64) (xy 69.85 167.64)
 		)
 		(stroke
@@ -2456,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "3f005b26-4f2d-4b04-b144-fc04661ec93b")
-	)
-	(wire
-		(pts
-			(xy 83.82 78.74) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d4b171-743b-4118-b404-44c64c4168f6")
 	)
 	(wire
 		(pts
@@ -2799,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 73.66 69.85)
+			(xy 68.58 69.85) (xy 83.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3079,17 +3059,6 @@
 		)
 		(uuid "71452907-9048-4fac-84ea-3339f615f969")
 	)
-	(text "TODO: verify i2c pullup resistance value"
-		(exclude_from_sim no)
-		(at 190.5 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8b3447b-a288-40e2-9ce9-774b9518016b")
-	)
 	(text "- ST32G0 UDPD: https://www.st.com/resource/en/product_training/STM32G0-Peripheral-USB-Type-C-Power-Delivery-UCPD.pdf\n"
 		(exclude_from_sim no)
 		(at 27.94 24.13 0)
@@ -3101,16 +3070,6 @@
 			(href "https://www.st.com/resource/en/product_training/STM32G0-Peripheral-USB-Type-C-Power-Delivery-UCPD.pdf")
 		)
 		(uuid "c1db891f-1300-4953-980f-21a85fecd339")
-	)
-	(text "TODO: Check R23, R24 (maybe not needed), calculate C29 and C30\n"
-		(exclude_from_sim no)
-		(at 60.706 59.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "de3efb25-94f2-4376-87ff-6ec74c76b849")
 	)
 	(text "- Hackady on USB PD: https://hackaday.com/2023/02/14/all-about-usb-c-talking-low-level-pd/"
 		(exclude_from_sim no)
@@ -3715,100 +3674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 78.74 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35ea165e-202c-48df-8507-2b57b7a1ae2c")
-		(property "Reference" "R24"
-			(at 77.47 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 77.47 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part No" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part No" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_{max}" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32e11f49-2c01-423e-afe0-04810ade87ba")
-		)
-		(pin "2"
-			(uuid "2d554ec4-f9c4-40b0-b67c-872ee8122f45")
-		)
-		(instances
-			(project "usb-zekers"
-				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/c7a7dbb8-992c-4c2f-932e-320edf489341"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 45.72 172.72 0)
 		(unit 1)
@@ -3905,100 +3770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 77.47 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7302459d-2343-4274-8bfc-fda337ffc805")
-		(property "Reference" "R23"
-			(at 77.47 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 77.47 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part No" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part No" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_{max}" ""
-			(at 77.47 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7cfbac4e-a603-4830-bfdf-a7c39c62f49b")
-		)
-		(pin "1"
-			(uuid "1de96d41-56dd-4529-83c9-37672534c583")
-		)
-		(instances
-			(project "usb-zekers"
-				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/c7a7dbb8-992c-4c2f-932e-320edf489341"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 59.69 69.85 90)
 		(unit 1)
@@ -4016,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "14pF"
 			(at 59.69 64.77 90)
 			(effects
 				(font
@@ -4726,7 +4497,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "NX3225GD"
+		(property "Value" "   NX3215SA-32.768K-STD-MUA-9"
 			(at 66.04 74.93 90)
 			(effects
 				(font
@@ -4771,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" "C889706"
+		(property "JLCPCB Part No" "C519280"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -5135,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "14pF"
 			(at 59.69 83.82 90)
 			(effects
 				(font
