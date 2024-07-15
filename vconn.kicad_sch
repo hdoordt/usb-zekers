@@ -1070,13 +1070,13 @@
 		(uuid "5c52b6e8-6b4e-442d-af42-f709ecdd2ce7")
 	)
 	(junction
-		(at 53.34 151.13)
+		(at 100.33 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a0936d5-4d05-4c42-a801-284bc5bce4aa")
 	)
 	(junction
-		(at 87.63 158.75)
+		(at 66.04 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cddd258-ad39-45f2-abed-505f3bc80813")
@@ -1094,13 +1094,13 @@
 		(uuid "af21a85c-f18e-41c1-a503-b525dc27df0d")
 	)
 	(junction
-		(at 58.42 140.97)
+		(at 95.25 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b540513a-2fd7-4b47-872d-3933496bd90c")
 	)
 	(junction
-		(at 87.63 172.72)
+		(at 66.04 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2cc69c7-3d7f-4ad1-b75e-c7871e743414")
@@ -1171,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 172.72) (xy 87.63 172.72)
+			(xy 109.22 172.72) (xy 66.04 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1201,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 151.13) (xy 64.77 151.13)
+			(xy 100.33 151.13) (xy 88.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 151.13) (xy 53.34 151.13)
+			(xy 109.22 151.13) (xy 100.33 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1291,7 +1291,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.97) (xy 58.42 140.97)
+			(xy 109.22 140.97) (xy 95.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 172.72) (xy 87.63 177.8)
+			(xy 66.04 172.72) (xy 66.04 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1341,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 158.75) (xy 87.63 162.56)
+			(xy 66.04 158.75) (xy 66.04 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 177.8) (xy 87.63 177.8)
+			(xy 102.87 180.34) (xy 66.04 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 143.51) (xy 53.34 151.13)
+			(xy 100.33 143.51) (xy 100.33 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 158.75) (xy 87.63 158.75)
+			(xy 109.22 158.75) (xy 66.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1571,6 +1571,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 142.24) (xy 52.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d9538e-f120-47f2-8ee7-249b9113e07c")
+	)
+	(wire
+		(pts
 			(xy 190.5 73.66) (xy 201.93 73.66)
 		)
 		(stroke
@@ -1591,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 140.97) (xy 58.42 140.97)
+			(xy 88.9 140.97) (xy 95.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 151.13) (xy 87.63 158.75)
+			(xy 66.04 151.13) (xy 66.04 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 148.59) (xy 64.77 148.59)
+			(xy 95.25 148.59) (xy 88.9 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 143.51) (xy 53.34 143.51)
+			(xy 88.9 143.51) (xy 100.33 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 170.18) (xy 87.63 172.72)
+			(xy 66.04 170.18) (xy 66.04 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 151.13) (xy 87.63 151.13)
+			(xy 76.2 151.13) (xy 66.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 58.42 148.59)
+			(xy 95.25 140.97) (xy 95.25 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1789,9 +1799,9 @@
 		)
 		(uuid "f43c81f9-a539-4e72-971e-974c005e2e57")
 	)
-	(text "TODO wire up VCONN using TCPP02-M18 (X-NUCLEO-SRC1M1)"
+	(text "VCONN subsystem based on TCPP02-M18 (X-NUCLEO-SRC1M1)"
 		(exclude_from_sim no)
-		(at 38.354 25.908 0)
+		(at 160.274 163.322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1801,19 +1811,9 @@
 		)
 		(uuid "b3fa89e4-ef96-4291-b610-fc444eea8465")
 	)
-	(text "TODO find 7mOhm, 1W shunt equivalent to ERJMP2MF7M0U, and use it for R21, R9 and R10"
+	(text "Notes on VCONN: https://developerhelp.microchip.com/xwiki/bin/view/applications/usb/typec-features/cc-vconn-signals/"
 		(exclude_from_sim no)
-		(at 133.096 159.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c00c70a9-6945-4526-b044-2968ad03d608")
-	)
-	(text "- Notes on VCONN: https://developerhelp.microchip.com/xwiki/bin/view/applications/usb/typec-features/cc-vconn-signals/"
-		(exclude_from_sim no)
-		(at 27.686 20.066 0)
+		(at 160.02 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1868,13 +1868,13 @@
 		(uuid "3fe5ce2a-bba5-4505-8f2c-c52ce776c9d3")
 	)
 	(label "Isense"
-		(at 44.45 158.75 0)
+		(at 109.22 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6480836f-32e3-43b1-bb4a-af1f621e0553")
 	)
@@ -1890,13 +1890,13 @@
 		(uuid "6e9dc4b3-c496-42bd-8c64-1f3672f3ead6")
 	)
 	(label "GATE"
-		(at 44.45 151.13 0)
+		(at 109.22 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "74cd542f-dae3-42c2-b169-cce180bbb928")
 	)
@@ -1934,24 +1934,24 @@
 		(uuid "8e7bebaf-7b0d-452e-8cc7-e8ff69074f9b")
 	)
 	(label "VBUSc"
-		(at 44.45 172.72 0)
+		(at 109.22 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "944b3243-4849-4f30-849a-6bf24bf86a50")
 	)
 	(label "SRC"
-		(at 44.45 140.97 0)
+		(at 109.22 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cba6dcd4-f258-40d5-8633-e852c7ad8951")
 	)
@@ -1988,6 +1988,18 @@
 			(justify right)
 		)
 		(uuid "14fd4f87-1f91-483e-8b56-c50c38e38ce8")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 52.07 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4204a564-ee62-43ac-a60a-14def2594dcd")
 	)
 	(hierarchical_label "I2C{SDA,SCL}"
 		(shape input)
@@ -2049,21 +2061,22 @@
 		)
 		(uuid "c9bc1e06-2b63-4037-89df-0191ffd9c04b")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "VBUS_PORT"
 		(shape input)
-		(at 77.47 177.8 180)
+		(at 102.87 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cfb9898e-1945-4a4f-a456-9c1c7fab32f6")
 	)
 	(symbol
 		(lib_id "usb_zekers:STL40DN3LLH5")
-		(at 71.12 156.21 0)
+		(at 82.55 156.21 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2072,7 +2085,7 @@
 		(fields_autoplaced yes)
 		(uuid "070659de-9713-4be7-a2df-21fc9716f855")
 		(property "Reference" "U8"
-			(at 71.12 133.35 0)
+			(at 82.55 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2093,7 @@
 			)
 		)
 		(property "Value" "STL40DN3LLH5"
-			(at 71.12 135.89 0)
+			(at 82.55 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 156.21 0)
+			(at 82.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl40dn3llh5.pdf"
-			(at 71.12 156.21 0)
+			(at 82.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 156.21 0)
+			(at 82.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2706,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 166.37 0)
+		(at 66.04 166.37 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2702,7 +2716,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3ab833d-b527-4f37-b827-cf576f1751b3")
 		(property "Reference" "R21"
-			(at 90.17 165.0999 0)
+			(at 63.5 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,8 +2724,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m"
-			(at 90.17 167.6399 0)
+		(property "Value" "TLRP3A30DR007FTE"
+			(at 63.5 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,8 +2733,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
-			(at 85.852 166.37 90)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 67.818 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,8 +2742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 87.63 166.37 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773449-4&DocType=DS&DocLang=English"
+			(at 66.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 166.37 0)
+			(at 66.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2761,7 @@
 			)
 		)
 		(property "LCSC Part No" ""
-			(at 87.63 166.37 0)
+			(at 66.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2770,7 @@
 			)
 		)
 		(property "JLCPCB Part No" ""
-			(at 87.63 166.37 0)
+			(at 66.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2779,7 @@
 			)
 		)
 		(property "V_{max}" ""
-			(at 87.63 166.37 0)
+			(at 66.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

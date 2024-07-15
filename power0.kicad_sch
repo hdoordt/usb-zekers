@@ -6057,7 +6057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m"
+		(property "Value" "TLRP3A30DR007FTE"
 			(at 199.39 57.1499 0)
 			(effects
 				(font
@@ -6066,7 +6066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 195.072 55.88 90)
 			(effects
 				(font
@@ -6075,7 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773449-4&DocType=DS&DocLang=English"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -9120,7 +9120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7m"
+		(property "Value" "TLRP3A30DR007FTE"
 			(at 147.32 39.3699 0)
 			(effects
 				(font
@@ -9129,7 +9129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0815_2038Metric_Pad1.20x4.05mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 143.002 38.1 90)
 			(effects
 				(font
@@ -9138,7 +9138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773449-4&DocType=DS&DocLang=English"
 			(at 144.78 38.1 0)
 			(effects
 				(font
