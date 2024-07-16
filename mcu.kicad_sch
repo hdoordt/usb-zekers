@@ -1046,6 +1046,7 @@
 					(alternate "ADC1_IN16" bidirectional line)
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM15_BK" bidirectional line)
 					(alternate "TIM1_BK" bidirectional line)
@@ -2076,24 +2077,12 @@
 		(uuid "0a0cd9e3-a057-4732-a9b3-fc1a00484c41")
 	)
 	(no_connect
-		(at 149.86 140.97)
-		(uuid "14f0d37b-b495-47e7-afbb-d4f9685a3941")
-	)
-	(no_connect
-		(at 149.86 115.57)
-		(uuid "1b76df8a-e515-4da5-b77d-66b956e0fbb6")
-	)
-	(no_connect
 		(at 149.86 123.19)
 		(uuid "1f7a16be-b697-4ae2-aada-6a793057ee5a")
 	)
 	(no_connect
 		(at 111.76 85.09)
 		(uuid "20a69f91-568b-40a6-9f81-5f7b1b10f769")
-	)
-	(no_connect
-		(at 149.86 138.43)
-		(uuid "284e1b3f-8e2d-42f8-b343-6da278d67082")
 	)
 	(no_connect
 		(at 149.86 74.93)
@@ -2148,10 +2137,6 @@
 		(uuid "b75d79ee-a5d9-4748-9fe0-9351e85b636c")
 	)
 	(no_connect
-		(at 149.86 135.89)
-		(uuid "c5258e3c-9536-4508-b9c2-9b4ce125a1b2")
-	)
-	(no_connect
 		(at 149.86 130.81)
 		(uuid "c6dc68f4-de7c-4efd-9f66-bf8ab6c758c3")
 	)
@@ -2170,10 +2155,6 @@
 	(no_connect
 		(at 149.86 105.41)
 		(uuid "e1ef49a1-b7b0-4649-a483-286352814d52")
-	)
-	(no_connect
-		(at 149.86 113.03)
-		(uuid "e3b02b9b-bc8f-49d5-a2b2-a9f01528e249")
 	)
 	(bus_entry
 		(at 254 80.01)
@@ -3037,16 +3018,6 @@
 		)
 		(uuid "ff5239b5-9aed-4814-aa05-7f21101de05d")
 	)
-	(text "TODO add VCONN_EN and VCONN_IANA"
-		(exclude_from_sim no)
-		(at 209.042 113.792 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5b3ac792-9e32-4e0f-9636-b0d481c199f7")
-	)
 	(text "- USB PD primer (TI): https://www.ti.com/lit/wp/slyy109b/slyy109b.pdf?ts=1711082549009\n"
 		(exclude_from_sim no)
 		(at 27.94 27.94 0)
@@ -3261,7 +3232,7 @@
 	)
 	(hierarchical_label "VCONN_EN"
 		(shape output)
-		(at 237.49 99.06 0)
+		(at 149.86 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3273,18 +3244,18 @@
 	)
 	(hierarchical_label "NCP0_CLIND"
 		(shape input)
-		(at 149.86 95.25 0)
+		(at 111.76 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0a106763-f1bd-43e0-b824-5c760bf9aea1")
 	)
 	(hierarchical_label "NCP0_EN"
-		(shape input)
+		(shape output)
 		(at 111.76 95.25 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3294,6 +3265,30 @@
 			(justify right)
 		)
 		(uuid "49296038-cc1e-4535-a1a2-f666d9587783")
+	)
+	(hierarchical_label "NCP0_CS2"
+		(shape input)
+		(at 149.86 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56d5e9b8-5478-4a9a-9f4c-e61e8fe46129")
+	)
+	(hierarchical_label "NCP0_CS1"
+		(shape input)
+		(at 149.86 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e1186c2-7043-4a4e-95b3-93325bb4f7a2")
 	)
 	(hierarchical_label "UCPD1{CC1,CC2}"
 		(shape input)
@@ -3309,19 +3304,19 @@
 	)
 	(hierarchical_label "NCP0_INT"
 		(shape input)
-		(at 111.76 97.79 180)
+		(at 149.86 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "705982f9-a6bf-4da8-8f04-9580e714282a")
 	)
 	(hierarchical_label "VCONN_IANA"
 		(shape input)
-		(at 237.49 105.41 0)
+		(at 149.86 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4661,6 +4656,7 @@
 		)
 		(pin "21"
 			(uuid "8c8be9a6-3d24-489b-a009-cf06c7f96fd8")
+			(alternate "ADC1_IN10")
 		)
 		(pin "10"
 			(uuid "ab1727c8-16f3-4f85-bdee-20ad91154920")
@@ -4685,6 +4681,7 @@
 		)
 		(pin "23"
 			(uuid "f51f1949-7776-43ac-8535-eb3f29afaff3")
+			(alternate "ADC1_EXTI11")
 		)
 		(pin "45"
 			(uuid "2506c359-4d08-40e7-b355-b87d5a4266f5")
@@ -4708,12 +4705,14 @@
 		)
 		(pin "20"
 			(uuid "b1c737b0-d76f-435e-9e1e-be28018b050d")
+			(alternate "ADC1_IN9")
 		)
 		(pin "19"
 			(uuid "7be4044d-a349-40a7-b3b4-6c85488a5e49")
 		)
 		(pin "22"
 			(uuid "cb70ad7f-0131-4a8e-ab0e-6669576cc64c")
+			(alternate "ADC1_IN11")
 		)
 		(pin "33"
 			(uuid "fa1684c8-092d-490e-b61c-2759958f4d8e")
@@ -4777,6 +4776,7 @@
 		)
 		(pin "24"
 			(uuid "58cc6ec7-73d0-427b-8f87-13f012f59e23")
+			(alternate "PB12")
 		)
 		(pin "36"
 			(uuid "7c3078a3-2aeb-40ae-bcab-28aa4735bcbe")

@@ -144,15 +144,15 @@
 		(color 0 0 0 0)
 		(uuid "75dfd9c3-6b8e-4c93-960e-a3a578a167f2")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 228.6 81.28) (xy 220.98 81.28)
+			(xy 137.16 147.32) (xy 160.02 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0af80cc4-7d56-4683-acb2-31dcd01ca9db")
+		(uuid "055ba073-9df8-417e-adb8-bb1eb005c916")
 	)
 	(wire
 		(pts
@@ -194,15 +194,15 @@
 		)
 		(uuid "2c883c67-3b7e-4208-a585-bb2a8cc13f36")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 153.67 147.32) (xy 160.02 147.32)
+			(xy 137.16 88.9) (xy 199.39 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4617a70f-e2e7-4a34-be70-3cf81473bb21")
+		(uuid "2deda371-92aa-429d-affa-2ff2a068f82b")
 	)
 	(wire
 		(pts
@@ -213,6 +213,16 @@
 			(type default)
 		)
 		(uuid "4d403f75-c4c4-4097-9ffb-427186ac45ff")
+	)
+	(wire
+		(pts
+			(xy 224.79 81.28) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbb4de8-159a-42c2-b120-086416c6d72f")
 	)
 	(bus
 		(pts
@@ -236,13 +246,23 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 110.49) (xy 91.44 156.21)
+			(xy 93.98 110.49) (xy 93.98 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f270684-bacc-43b1-9b31-2371e6ea2bd0")
+	)
+	(wire
+		(pts
+			(xy 137.16 165.1) (xy 171.45 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618bb602-520b-433b-8af5-0f15b139a5f7")
 	)
 	(wire
 		(pts
@@ -256,7 +276,7 @@
 	)
 	(bus
 		(pts
-			(xy 105.41 110.49) (xy 91.44 110.49)
+			(xy 105.41 110.49) (xy 93.98 110.49)
 		)
 		(stroke
 			(width 0)
@@ -276,7 +296,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 113.03 148.59)
+			(xy 99.06 148.59) (xy 105.41 148.59)
 		)
 		(stroke
 			(width 0)
@@ -286,7 +306,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 116.84) (xy 99.06 116.84)
+			(xy 105.41 115.57) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -316,26 +336,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 151.13) (xy 163.83 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f0ccec3-9dfc-4960-9e42-21188c49f2c0")
-	)
-	(wire
-		(pts
-			(xy 153.67 165.1) (xy 171.45 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5effdb9-7d9b-42e1-8ad4-ea71746d5a81")
-	)
-	(wire
-		(pts
 			(xy 74.93 93.98) (xy 105.41 93.98)
 		)
 		(stroke
@@ -346,7 +346,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 113.03) (xy 95.25 152.4)
+			(xy 96.52 113.03) (xy 96.52 152.4)
 		)
 		(stroke
 			(width 0)
@@ -374,6 +374,16 @@
 		)
 		(uuid "cc027337-2bad-451c-b2bc-cf24be0d6691")
 	)
+	(bus
+		(pts
+			(xy 137.16 161.29) (xy 167.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4838d59-10d7-444a-8d9d-2893726ae4c5")
+	)
 	(wire
 		(pts
 			(xy 137.16 93.98) (xy 199.39 93.98)
@@ -383,6 +393,16 @@
 			(type default)
 		)
 		(uuid "d8d987db-4c09-4295-9384-5b22d021be28")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9b25f7-b96e-4a29-88e8-c9c0110f3e15")
 	)
 	(wire
 		(pts
@@ -396,13 +416,23 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 156.21) (xy 113.03 156.21)
+			(xy 93.98 156.21) (xy 105.41 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dd2c1c8d-28e8-4514-bca6-1c20a9d60cd7")
+	)
+	(wire
+		(pts
+			(xy 137.16 151.13) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e658ac2e-04f7-4850-afa3-5d6221ee3914")
 	)
 	(bus
 		(pts
@@ -426,7 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 99.06 148.59)
+			(xy 99.06 115.57) (xy 99.06 148.59)
 		)
 		(stroke
 			(width 0)
@@ -446,7 +476,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 113.03) (xy 95.25 113.03)
+			(xy 105.41 113.03) (xy 96.52 113.03)
 		)
 		(stroke
 			(width 0)
@@ -456,33 +486,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 152.4) (xy 113.03 152.4)
+			(xy 96.52 152.4) (xy 105.41 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7909e56-698a-4797-8abe-306d31eb881e")
-	)
-	(bus
-		(pts
-			(xy 152.4 161.29) (xy 167.64 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe06dfd5-5ca6-46a2-8159-57dc0933746e")
-	)
-	(text "TODO what to do with VBUS_PORTA?\n"
-		(exclude_from_sim no)
-		(at 254.508 125.984 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c51ee8d4-03d7-4589-8070-38d45647e43a")
 	)
 	(symbol
 		(lib_id "power:Vdrive")
@@ -648,7 +658,7 @@
 	)
 	(sheet
 		(at 199.39 118.11)
-		(size 34.29 20.32)
+		(size 25.4 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -696,16 +706,6 @@
 			)
 			(uuid "762e73ad-f3f1-4bc1-85cd-144ca46e5a1d")
 		)
-		(pin "VBUS_PORTA" input
-			(at 233.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b3a8aeaa-736f-442b-b41d-b1b99aacf254")
-		)
 		(pin "~{RESET}" output
 			(at 199.39 128.27 180)
 			(effects
@@ -735,8 +735,8 @@
 		)
 	)
 	(sheet
-		(at 113.03 144.78)
-		(size 40.64 24.13)
+		(at 105.41 144.78)
+		(size 31.75 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -747,7 +747,7 @@
 		)
 		(uuid "8bdeb972-b5c6-4f8c-8946-d621fdfe7339")
 		(property "Sheetname" "VCONN"
-			(at 113.03 144.0684 0)
+			(at 105.41 144.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +756,7 @@
 			)
 		)
 		(property "Sheetfile" "vconn.kicad_sch"
-			(at 113.03 169.4946 0)
+			(at 105.41 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +765,7 @@
 			)
 		)
 		(pin "TCPP_EN" input
-			(at 113.03 148.59 180)
+			(at 105.41 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +775,7 @@
 			(uuid "4b9ecf44-8e6d-4dc1-b6bb-0bd95971fea7")
 		)
 		(pin "TCPP_CC_MCU{CC1,CC2}" bidirectional
-			(at 113.03 156.21 180)
+			(at 105.41 156.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +785,7 @@
 			(uuid "2c297c88-fab6-4b0a-a5a7-a64663f2946b")
 		)
 		(pin "TCPP_IANA" bidirectional
-			(at 113.03 152.4 180)
+			(at 105.41 152.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,7 +795,7 @@
 			(uuid "f7e4a2ab-52fa-414b-8865-d6b11521414f")
 		)
 		(pin "I2C{SDA,SCL}" input
-			(at 153.67 147.32 0)
+			(at 137.16 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			(uuid "eb37429d-968d-4362-b389-c20f2189b234")
 		)
 		(pin "VBUS" input
-			(at 153.67 151.13 0)
+			(at 137.16 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +815,7 @@
 			(uuid "7e301512-ea66-4c43-9404-5bca8dffbb4b")
 		)
 		(pin "TCPP_CC_PORT{CC1c,CC2c}" bidirectional
-			(at 153.67 161.29 0)
+			(at 137.16 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +825,7 @@
 			(uuid "01068582-1cb4-4ef1-b6c7-45efb8f268c8")
 		)
 		(pin "VBUS_PORT" input
-			(at 153.67 165.1 0)
+			(at 137.16 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,16 +922,6 @@
 			)
 			(uuid "702ead5f-9d90-4478-9545-01e933e84fbf")
 		)
-		(pin "NCP0_EN" input
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "aff56788-92cf-4481-ad14-17a0c7a871da")
-		)
 		(pin "NCP0_INT" input
 			(at 137.16 93.98 0)
 			(effects
@@ -963,7 +953,7 @@
 			(uuid "8c00e0cf-8cd2-426b-bdc5-b4a857f4e643")
 		)
 		(pin "VCONN_EN" output
-			(at 105.41 116.84 180)
+			(at 105.41 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,6 +961,36 @@
 				(justify left)
 			)
 			(uuid "2f281ce3-7b7e-4c70-8679-b9205e7efde1")
+		)
+		(pin "NCP0_CS2" input
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d89be7bb-2c55-41ac-806a-7f4270d1a995")
+		)
+		(pin "NCP0_CS1" input
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79771a30-2f7d-40e0-91ff-bcd216a388bd")
+		)
+		(pin "NCP0_EN" output
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "866acf4a-85bf-42d2-a17f-0f0632005a46")
 		)
 		(instances
 			(project "usb-zekers"
@@ -982,7 +1002,7 @@
 	)
 	(sheet
 		(at 199.39 74.93)
-		(size 21.59 33.02)
+		(size 25.4 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1011,7 +1031,7 @@
 			)
 		)
 		(pin "NCP0_VIN" input
-			(at 220.98 81.28 0)
+			(at 224.79 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,6 +1089,26 @@
 				(justify left)
 			)
 			(uuid "81f12c8c-66d6-4310-9a36-3f296965a3fd")
+		)
+		(pin "NCP0_CS1" input
+			(at 199.39 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1a11d2d2-873b-496c-a53e-95b3e08f64c7")
+		)
+		(pin "NCP0_CS2" input
+			(at 199.39 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d60fc510-4e71-474a-9f61-a4cf6f98c0f2")
 		)
 		(instances
 			(project "usb-zekers"

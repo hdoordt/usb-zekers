@@ -3034,6 +3034,10 @@
 		(uuid "8f0fb42f-0250-4c59-8dde-9ecd013e7a2f")
 	)
 	(no_connect
+		(at 181.61 115.57)
+		(uuid "989acf1d-6671-4ef3-9e13-b2201a17aebb")
+	)
+	(no_connect
 		(at 205.74 144.78)
 		(uuid "9a7424f4-3605-4821-b925-2be2af198416")
 	)
@@ -3048,6 +3052,10 @@
 	(no_connect
 		(at 62.23 137.16)
 		(uuid "af4da2bd-7009-4ada-9aa2-f45f69338e70")
+	)
+	(no_connect
+		(at 119.38 114.3)
+		(uuid "b8612f70-b1f5-4172-94f6-309b0669b9a6")
 	)
 	(no_connect
 		(at 62.23 152.4)
@@ -3740,18 +3748,6 @@
 			(justify left)
 		)
 		(uuid "2b78d449-6259-46d3-9414-f1d4853a653f")
-	)
-	(hierarchical_label "VBUS_PORTA"
-		(shape input)
-		(at 119.38 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62ad6df8-bb4a-4b59-ac0e-365f2f2ba6ab")
 	)
 	(hierarchical_label "SWD{SWDIO,SWDCLK}"
 		(shape bidirectional)
