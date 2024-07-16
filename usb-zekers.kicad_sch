@@ -156,7 +156,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 165.1) (xy 171.45 135.89)
+			(xy 171.45 163.83) (xy 171.45 135.89)
 		)
 		(stroke
 			(width 0)
@@ -206,6 +206,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 157.48) (xy 105.41 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346a9bab-de32-4ece-9d2d-65ec846545ce")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b20676c-ebcd-431c-aa57-8e03952ba782")
+	)
+	(wire
+		(pts
 			(xy 68.58 93.98) (xy 74.93 93.98)
 		)
 		(stroke
@@ -246,7 +266,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 110.49) (xy 93.98 156.21)
+			(xy 93.98 110.49) (xy 93.98 154.94)
 		)
 		(stroke
 			(width 0)
@@ -256,7 +276,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 165.1) (xy 171.45 165.1)
+			(xy 137.16 163.83) (xy 171.45 163.83)
 		)
 		(stroke
 			(width 0)
@@ -296,7 +316,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 105.41 148.59)
+			(xy 99.06 149.86) (xy 105.41 149.86)
 		)
 		(stroke
 			(width 0)
@@ -333,6 +353,16 @@
 			(type default)
 		)
 		(uuid "91cb15e5-e326-40df-9c5c-21aeba829149")
+	)
+	(wire
+		(pts
+			(xy 91.44 107.95) (xy 91.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9d4531-8740-4504-b5ff-c53ca3def7c0")
 	)
 	(wire
 		(pts
@@ -416,7 +446,7 @@
 	)
 	(bus
 		(pts
-			(xy 93.98 156.21) (xy 105.41 156.21)
+			(xy 93.98 154.94) (xy 105.41 154.94)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 99.06 148.59)
+			(xy 99.06 115.57) (xy 99.06 149.86)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +795,7 @@
 			)
 		)
 		(pin "TCPP_EN" input
-			(at 105.41 148.59 180)
+			(at 105.41 149.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +805,7 @@
 			(uuid "4b9ecf44-8e6d-4dc1-b6bb-0bd95971fea7")
 		)
 		(pin "TCPP_CC_MCU{CC1,CC2}" bidirectional
-			(at 105.41 156.21 180)
+			(at 105.41 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +855,7 @@
 			(uuid "01068582-1cb4-4ef1-b6c7-45efb8f268c8")
 		)
 		(pin "VBUS_PORT" input
-			(at 137.16 165.1 0)
+			(at 137.16 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,6 +863,16 @@
 				(justify right)
 			)
 			(uuid "20c7a0b4-4eb4-42cc-a637-72bf116bb345")
+		)
+		(pin "TCPP_FLGn" output
+			(at 105.41 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8137871f-8228-47d1-8fed-fa377fe3fa9f")
 		)
 		(instances
 			(project "usb-zekers"
@@ -991,6 +1031,16 @@
 				(justify right)
 			)
 			(uuid "866acf4a-85bf-42d2-a17f-0f0632005a46")
+		)
+		(pin "VCONN_FLGn" input
+			(at 105.41 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0bbcffec-8085-4176-ba2f-2b55fb762d46")
 		)
 		(instances
 			(project "usb-zekers"

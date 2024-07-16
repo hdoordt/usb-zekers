@@ -1043,6 +1043,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN16" bidirectional line)
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
@@ -3254,6 +3255,18 @@
 		)
 		(uuid "0a106763-f1bd-43e0-b824-5c760bf9aea1")
 	)
+	(hierarchical_label "VCONN_FLGn"
+		(shape input)
+		(at 149.86 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27f93961-b023-43b2-a81e-19cb2daa0793")
+	)
 	(hierarchical_label "NCP0_EN"
 		(shape output)
 		(at 111.76 95.25 180)
@@ -3304,7 +3317,7 @@
 	)
 	(hierarchical_label "NCP0_INT"
 		(shape input)
-		(at 149.86 138.43 0)
+		(at 149.86 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

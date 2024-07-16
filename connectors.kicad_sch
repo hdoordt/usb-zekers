@@ -3597,7 +3597,7 @@
 	)
 	(text "Vdrive must not exceed 15V, due to AMS1117"
 		(exclude_from_sim no)
-		(at 121.666 21.336 0)
+		(at 173.228 19.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
