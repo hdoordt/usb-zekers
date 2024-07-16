@@ -1248,12 +1248,6 @@
 		(uuid "34db9bb2-735c-480b-88eb-72cf7a654743")
 	)
 	(junction
-		(at 186.69 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38fd8d17-0c7f-4097-8f07-65303983a870")
-	)
-	(junction
 		(at 111.76 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1307,6 +1301,12 @@
 		(color 0 0 0 0)
 		(uuid "cbc0ec50-88d5-4226-b107-f9884a8775fa")
 	)
+	(junction
+		(at 119.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2f31bc-828f-44cc-b170-32a7f844144e")
+	)
 	(wire
 		(pts
 			(xy 186.69 87.63) (xy 186.69 77.47)
@@ -1336,6 +1336,26 @@
 			(type default)
 		)
 		(uuid "3b5e2887-8f02-4b05-b5a8-85159715d73b")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3c3ace-ab37-456b-bc8f-9a47f4350e4e")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d04fd7-d647-4418-96dc-4cb25a95bd0a")
 	)
 	(wire
 		(pts
@@ -1419,16 +1439,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 149.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbb9360-c51b-436b-b50e-100e57f01341")
-	)
-	(wire
-		(pts
 			(xy 139.7 87.63) (xy 146.05 87.63)
 		)
 		(stroke
@@ -1439,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 110.49) (xy 146.05 110.49)
+			(xy 138.43 110.49) (xy 146.05 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1549,6 +1559,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b016802c-acd9-423c-8468-37c41a1bea17")
+	)
+	(wire
+		(pts
 			(xy 186.69 87.63) (xy 186.69 93.98)
 		)
 		(stroke
@@ -1599,16 +1619,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 186.69 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2cbec55-6676-4aef-88fd-aa73de947e60")
-	)
-	(wire
-		(pts
 			(xy 143.51 77.47) (xy 146.05 77.47)
 		)
 		(stroke
@@ -1639,13 +1649,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 124.46 87.63)
+			(xy 111.76 87.63) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa6e1ff0-f4d4-45ef-bc76-bda4cb6967d2")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6ff41c-8d29-4c74-b3f4-d29329a72d23")
 	)
 	(text "An alternative to the LM7805 might be https://www.tracopower.com/int/series/tsr-0-5"
 		(exclude_from_sim no)
@@ -1908,72 +1928,6 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 186.69 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c3f9b54-3c19-45be-9148-5d14e2ddccd7")
-		(property "Reference" "#FLG03"
-			(at 186.69 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 186.69 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c3d5c15-3eaf-4e59-94c3-c4b074c4eb0f")
-		)
-		(instances
-			(project ""
-				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2378,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 110.49 0)
+		(at 146.05 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2341,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cfc6da9-c100-4d1f-af62-959f7e6bcb07")
 		(property "Reference" "#PWR020"
-			(at 149.86 116.84 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 115.57 0)
+			(at 146.05 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 110.49 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +2367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 110.49 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +2376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 110.49 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,6 +2461,71 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 153.67 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a05abb68-bb85-45f7-b0c3-065d77eb5528")
+		(property "Reference" "#FLG03"
+			(at 153.67 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04dcbf2c-c5d8-4b55-b428-c05487cab92d")
+		)
+		(instances
+			(project ""
+				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2665,6 +2684,72 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6173519-cc0d-48cb-bd8d-516d8c69b7ae")
+		(property "Reference" "#FLG04"
+			(at 119.38 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b758355-bcec-4912-8d1f-4a5714468359")
+		)
+		(instances
+			(project ""
+				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/82a98e61-1216-4b10-874c-49028a86b7b9"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2860,7 +2945,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 143.51 110.49 180)
+		(at 138.43 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2868,7 +2953,7 @@
 		(dnp no)
 		(uuid "f33b3f68-a7a7-48b0-b224-6a207170db93")
 		(property "Reference" "TP6"
-			(at 141.605 115.062 0)
+			(at 136.525 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2962,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 141.605 112.522 0)
+			(at 136.525 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 110.49 0)
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

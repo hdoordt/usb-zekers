@@ -508,7 +508,7 @@
 				)
 			)
 		)
-		(symbol "MCU_ST_STM32G0:STM32G071C8Tx"
+		(symbol "STM32G071C8Tx_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -584,7 +584,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32G071C8Tx_0_1"
+			(symbol "STM32G071C8Tx_1_0_1"
 				(rectangle
 					(start -15.24 -43.18)
 					(end 17.78 45.72)
@@ -597,7 +597,7 @@
 					)
 				)
 			)
-			(symbol "STM32G071C8Tx_1_1"
+			(symbol "STM32G071C8Tx_1_1_1"
 				(pin bidirectional line
 					(at -17.78 10.16 0)
 					(length 2.54)
@@ -1043,11 +1043,9 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "ADC1_IN16" bidirectional line)
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI2_NSS" bidirectional line)
 					(alternate "TIM15_BK" bidirectional line)
 					(alternate "TIM1_BK" bidirectional line)
@@ -3872,6 +3870,233 @@
 		)
 	)
 	(symbol
+		(lib_name "STM32G071C8Tx_1")
+		(lib_id "MCU_ST_STM32G0:STM32G071C8Tx")
+		(at 129.54 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ad8f76-fdb2-4052-9de9-2a6673825649")
+		(property "Reference" "U9"
+			(at 134.2741 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32G071C8Tx"
+			(at 134.2741 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g071c8.pdf"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 36KB RAM, 64 MHz, 1.7-3.6V, 44 GPIO, LQFP48"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4a978209-2c61-4013-99d4-619d74c4b762")
+		)
+		(pin "21"
+			(uuid "95f05988-c8f3-4b74-a6c9-2bed650fae46")
+			(alternate "ADC1_IN10")
+		)
+		(pin "5"
+			(uuid "f56a8b83-4114-442a-b150-095503112119")
+		)
+		(pin "37"
+			(uuid "01d5c10e-61cf-421f-be6e-750371fcb539")
+		)
+		(pin "36"
+			(uuid "c800f1ab-9e08-457a-9cc3-8f505852c7d7")
+			(alternate "SYS_SWCLK")
+		)
+		(pin "29"
+			(uuid "eac5813c-fc51-464f-b24f-d40da3800cc6")
+			(alternate "UCPD1_DBCC1")
+		)
+		(pin "22"
+			(uuid "522b214c-25e2-463c-9fde-c7bc5da83f15")
+			(alternate "ADC1_IN11")
+		)
+		(pin "30"
+			(uuid "e81b9826-fd0b-4787-abb2-488569f830d1")
+		)
+		(pin "15"
+			(uuid "27a2905d-d251-4a94-b1a0-7e9aa2e93032")
+		)
+		(pin "48"
+			(uuid "e2832efd-0c10-4274-a39f-01784d644281")
+		)
+		(pin "43"
+			(uuid "1452f443-ed7f-4a92-ae92-5d21e66487f4")
+		)
+		(pin "18"
+			(uuid "7970e329-f87e-4462-a0aa-45f176fab4cd")
+		)
+		(pin "45"
+			(uuid "8e3468b8-1ad7-4fd5-976b-be75b6f5956f")
+		)
+		(pin "44"
+			(uuid "2c8043f6-8c9f-428e-bbd3-a3e829d374a3")
+		)
+		(pin "4"
+			(uuid "4ca19861-dc85-4a3c-812d-3ea2273ca522")
+		)
+		(pin "11"
+			(uuid "49e4706b-61a5-4498-a06c-b0422c2d6130")
+		)
+		(pin "19"
+			(uuid "8fe65175-e224-4a5a-ae88-47d2cf1f2ea0")
+		)
+		(pin "13"
+			(uuid "f13ee04f-9aec-49f5-8ac4-ed70b9292346")
+			(alternate "TIM2_CH3")
+		)
+		(pin "7"
+			(uuid "8e32170c-4c0e-4d08-8f43-38591d0f4af0")
+		)
+		(pin "3"
+			(uuid "a028dc3c-de8b-4b8e-8eee-42808652f69b")
+		)
+		(pin "46"
+			(uuid "28647997-17db-4219-b918-66f6958ea3e6")
+		)
+		(pin "33"
+			(uuid "7e97df1f-a914-4cde-8da7-c71f7016f163")
+		)
+		(pin "24"
+			(uuid "fe7bf1ee-1eee-499d-b4a9-74bd6804add5")
+		)
+		(pin "31"
+			(uuid "dffcdf13-853b-4ca6-aa8c-256890c49a3f")
+		)
+		(pin "41"
+			(uuid "bd7f9eb0-c369-4829-8304-57aeff69d7bb")
+		)
+		(pin "27"
+			(uuid "aad92ed6-4441-447f-8833-ad8687c8a9af")
+			(alternate "UCPD1_CC2")
+		)
+		(pin "17"
+			(uuid "9ccfd1f2-eeb4-4c9d-82a7-bfc86ce7aa2a")
+		)
+		(pin "32"
+			(uuid "b8fab319-3397-4f16-ad75-5592e86f95d2")
+			(alternate "UCPD1_DBCC2")
+		)
+		(pin "40"
+			(uuid "7acc04b1-b9ee-4487-a2f6-fe2a7a2c276d")
+		)
+		(pin "23"
+			(uuid "c58e6769-53d5-4aa1-bab5-cdd2990286bb")
+			(alternate "ADC1_EXTI11")
+		)
+		(pin "9"
+			(uuid "194352b1-de1e-492d-86c7-35d4c6ad558f")
+			(alternate "RCC_OSC_OUT")
+		)
+		(pin "35"
+			(uuid "0f1dce36-3124-4242-bbc2-30bf5ce0e8c9")
+			(alternate "SYS_SWDIO")
+		)
+		(pin "28"
+			(uuid "85362d91-d93e-4855-86f5-f986c374941f")
+			(alternate "UCPD1_CC1")
+		)
+		(pin "39"
+			(uuid "4414e53a-4d35-4d70-83cc-4e2ec33563f2")
+		)
+		(pin "38"
+			(uuid "1623e381-3470-4374-8ddb-119ab1f5837d")
+		)
+		(pin "25"
+			(uuid "f7655722-2234-4cb7-97a6-544c30914df6")
+			(alternate "I2C2_SCL")
+		)
+		(pin "20"
+			(uuid "d26b2bee-6543-44a9-a6b1-0ac18ecd16f1")
+			(alternate "ADC1_IN9")
+		)
+		(pin "2"
+			(uuid "538b9eb4-261e-439d-8e89-4a1bb226705c")
+		)
+		(pin "34"
+			(uuid "b243cd96-da2c-4e88-89c4-8bb222a7f282")
+		)
+		(pin "42"
+			(uuid "23fef541-69f4-462b-bd95-ecf8e8b2f043")
+		)
+		(pin "47"
+			(uuid "befd3158-d7df-42f4-a665-18430f4b604f")
+		)
+		(pin "16"
+			(uuid "59763f20-f545-4105-a02c-2b738da9ff53")
+		)
+		(pin "12"
+			(uuid "8bf2eee7-f785-46d0-a5e1-ad89faf3bf6a")
+			(alternate "TIM2_CH2")
+		)
+		(pin "14"
+			(uuid "1c5cbe56-b8c5-4e7c-8e92-7e796190e37e")
+			(alternate "TIM2_CH4")
+		)
+		(pin "26"
+			(uuid "a6c8e739-fc32-4e0a-80e8-c55b48e32531")
+			(alternate "I2C2_SDA")
+		)
+		(pin "8"
+			(uuid "edc055fa-f993-4efa-b4c2-d30d4b43ab1b")
+			(alternate "RCC_OSC_IN")
+		)
+		(pin "1"
+			(uuid "1dcdf30d-ed66-4d6e-9e55-ecfb0cc41e54")
+		)
+		(pin "10"
+			(uuid "6d0c913f-befe-45d3-9c48-d47adcbacc42")
+		)
+		(instances
+			(project ""
+				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/c7a7dbb8-992c-4c2f-932e-320edf489341"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 95.25 0)
 		(unit 1)
@@ -4577,259 +4802,6 @@
 			(project "usb-zekers"
 				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/c7a7dbb8-992c-4c2f-932e-320edf489341"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_ST_STM32G0:STM32G071C8Tx")
-		(at 129.54 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c574ad35-09c7-4c16-b7cc-422e2ef41e89")
-		(property "Reference" "U1"
-			(at 134.2741 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM32G071C8Tx"
-			(at 134.2741 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 114.3 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g071c8.pdf"
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part No" ""
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part No" "C529341"
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "V_{max}" ""
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "37"
-			(uuid "3be48019-e5d4-4f98-906b-31c7a4c1527c")
-		)
-		(pin "21"
-			(uuid "8c8be9a6-3d24-489b-a009-cf06c7f96fd8")
-			(alternate "ADC1_IN10")
-		)
-		(pin "10"
-			(uuid "ab1727c8-16f3-4f85-bdee-20ad91154920")
-		)
-		(pin "7"
-			(uuid "c44eea49-bafa-4019-aa1f-ba7552fee0b5")
-		)
-		(pin "3"
-			(uuid "2c45be5f-730a-4381-b928-7640c7273202")
-		)
-		(pin "2"
-			(uuid "2a72d068-125d-418c-9c60-693eb9b2b4ed")
-		)
-		(pin "18"
-			(uuid "d0624894-7386-4cbe-b0c5-3c16e3fd68a6")
-		)
-		(pin "4"
-			(uuid "ca95495d-05e9-4bb3-b141-ed00dcaa2381")
-		)
-		(pin "5"
-			(uuid "6dfca030-ca5d-43e2-9076-e2b57802a0b3")
-		)
-		(pin "23"
-			(uuid "f51f1949-7776-43ac-8535-eb3f29afaff3")
-			(alternate "ADC1_EXTI11")
-		)
-		(pin "45"
-			(uuid "2506c359-4d08-40e7-b355-b87d5a4266f5")
-		)
-		(pin "17"
-			(uuid "af394a3d-6ef1-4b56-b973-6d39b7b1d052")
-		)
-		(pin "35"
-			(uuid "b4793ce4-6a9f-46a0-85cc-c559d1092513")
-			(alternate "SYS_SWDIO")
-		)
-		(pin "15"
-			(uuid "58efeffb-8390-497a-baea-39ef982e2a4c")
-		)
-		(pin "48"
-			(uuid "2b2ce7ac-8e65-4839-ae2f-f43a723e93a0")
-		)
-		(pin "14"
-			(uuid "501d6dbf-d494-4bce-921f-1c26c975185f")
-			(alternate "TIM2_CH4")
-		)
-		(pin "20"
-			(uuid "b1c737b0-d76f-435e-9e1e-be28018b050d")
-			(alternate "ADC1_IN9")
-		)
-		(pin "19"
-			(uuid "7be4044d-a349-40a7-b3b4-6c85488a5e49")
-		)
-		(pin "22"
-			(uuid "cb70ad7f-0131-4a8e-ab0e-6669576cc64c")
-			(alternate "ADC1_IN11")
-		)
-		(pin "33"
-			(uuid "fa1684c8-092d-490e-b61c-2759958f4d8e")
-		)
-		(pin "27"
-			(uuid "e8ef1a34-2543-4aec-85ae-f35e088d7cec")
-			(alternate "UCPD1_CC2")
-		)
-		(pin "13"
-			(uuid "c7fbc935-9130-41fd-8591-3d9d09dbc23c")
-			(alternate "TIM2_CH3")
-		)
-		(pin "28"
-			(uuid "8544b7c7-0506-40a1-853e-c8558cd9fa8a")
-			(alternate "UCPD1_CC1")
-		)
-		(pin "29"
-			(uuid "3ddc9405-e262-4e37-a574-99684d5228b1")
-			(alternate "UCPD1_DBCC1")
-		)
-		(pin "40"
-			(uuid "5e5c2a10-9219-47db-9ccd-a8797ae102c0")
-		)
-		(pin "26"
-			(uuid "b2cf4d20-5b49-4fb5-ad6a-72d1fb0c849b")
-			(alternate "I2C2_SDA")
-		)
-		(pin "38"
-			(uuid "7624938c-225e-47f0-97bf-f06a31e8026e")
-		)
-		(pin "31"
-			(uuid "2ff7144b-453d-4fdd-aaba-1a36cb3c9158")
-		)
-		(pin "9"
-			(uuid "5ed19ca0-3754-40fb-bece-b5814af8b7a5")
-			(alternate "RCC_OSC_OUT")
-		)
-		(pin "30"
-			(uuid "2f00ace2-c2fd-466f-9a6f-fd80f36c12c9")
-		)
-		(pin "39"
-			(uuid "cd876f65-9b56-42ba-8fb5-9e3a40e75040")
-		)
-		(pin "34"
-			(uuid "c4d346e5-ecb7-45cd-96e7-9dffb391c502")
-		)
-		(pin "44"
-			(uuid "f5c233a1-110b-44bc-9898-48558fb5de29")
-		)
-		(pin "47"
-			(uuid "6f1d4d4b-7044-4bf7-ac22-efd0a9a81a2c")
-		)
-		(pin "41"
-			(uuid "157435a9-05f4-4c69-ac4f-6da177af8504")
-		)
-		(pin "42"
-			(uuid "774e6d38-235c-40e4-bed7-8d5b227ca59b")
-		)
-		(pin "46"
-			(uuid "5e786b9a-cb61-40f7-975d-072a9d278aa9")
-		)
-		(pin "24"
-			(uuid "58cc6ec7-73d0-427b-8f87-13f012f59e23")
-			(alternate "PB12")
-		)
-		(pin "36"
-			(uuid "7c3078a3-2aeb-40ae-bcab-28aa4735bcbe")
-			(alternate "SYS_SWCLK")
-		)
-		(pin "8"
-			(uuid "d63f97e7-58f1-4e51-a64c-8859cc94baf2")
-			(alternate "RCC_OSC_IN")
-		)
-		(pin "32"
-			(uuid "98d72d1d-3e18-426a-a01e-fb4152ec41b4")
-			(alternate "UCPD1_DBCC2")
-		)
-		(pin "1"
-			(uuid "7aded356-54c2-4e10-a50b-a4455f166116")
-		)
-		(pin "16"
-			(uuid "6f04d7e5-a14b-4471-b421-ceca1d1a6f7f")
-		)
-		(pin "25"
-			(uuid "52fc9538-d9e1-458d-b037-48af31b992f6")
-			(alternate "I2C2_SCL")
-		)
-		(pin "11"
-			(uuid "8b8d64e0-93f9-4784-b0d9-0119c394e22a")
-		)
-		(pin "43"
-			(uuid "e9951f27-a8b6-45eb-a3dc-19f7e6145a56")
-		)
-		(pin "6"
-			(uuid "3cf5fd80-d765-497b-977b-7a7c76dfd3bd")
-		)
-		(pin "12"
-			(uuid "1b9d1d49-0ddd-4a5e-95e2-79f030ae1b1a")
-			(alternate "TIM2_CH2")
-		)
-		(instances
-			(project "usb-zekers"
-				(path "/1eef11ed-4055-4fe6-b7fc-0d497914d6cc/c7a7dbb8-992c-4c2f-932e-320edf489341"
-					(reference "U1")
 					(unit 1)
 				)
 			)
