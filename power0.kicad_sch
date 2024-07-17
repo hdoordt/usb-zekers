@@ -4730,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "100nF"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -4739,7 +4739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 59.69 0)
 			(effects
 				(font
@@ -4807,7 +4807,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01f7bb9c-bb21-4632-beb9-f86d8f3b7248")
 		(property "Reference" "C14"
 			(at 154.94 156.21 0)
@@ -4818,7 +4817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 154.94 158.75 0)
 			(effects
 				(font
@@ -4827,7 +4826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.0952 161.29 0)
 			(effects
 				(font
@@ -4906,7 +4905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.033uF"
+		(property "Value" "33nF"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -4915,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 142.24 0)
 			(effects
 				(font
@@ -4994,7 +4993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1uF"
 			(at 67.945 179.07 0)
 			(effects
 				(font
@@ -5003,7 +5002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.7352 181.61 0)
 			(effects
 				(font
@@ -5022,6 +5021,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No" "C52923"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -5072,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 184.15 0)
 			(effects
 				(font
@@ -5108,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C45783"
 			(at 139.7 180.34 0)
 			(effects
 				(font
@@ -5159,7 +5167,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NRVBSS14HE"
 			(at 236.22 33.3374 90)
 			(effects
 				(font
@@ -5168,7 +5176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 238.76 31.75 0)
 			(effects
 				(font
@@ -5213,6 +5221,7 @@
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 115.57 157.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5220,7 +5229,7 @@
 		(dnp no)
 		(uuid "1e2b2f75-c196-4d32-ae25-6e2b21c9efa1")
 		(property "Reference" "C11"
-			(at 119.38 154.94 0)
+			(at 111.76 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,8 +5237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150uF"
-			(at 119.38 157.48 0)
+		(property "Value" "GYA1V151MCQ1GS"
+			(at 111.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,8 +5246,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 116.5352 161.29 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 114.6048 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5282,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C251029"
 			(at 115.57 157.48 0)
 			(effects
 				(font
@@ -5283,7 +5292,7 @@
 			)
 		)
 		(property "V_{max}" "35V"
-			(at 119.38 160.02 0)
+			(at 111.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 119.38 181.61 0)
 			(effects
 				(font
@@ -5333,7 +5342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 184.15 0)
 			(effects
 				(font
@@ -5429,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.2752 132.08 0)
 			(effects
 				(font
@@ -5830,7 +5839,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 24.4348 69.85 0)
 			(effects
 				(font
@@ -5866,7 +5875,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C19666"
 			(at 25.4 73.66 0)
 			(effects
 				(font
@@ -6075,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.01uF"
+		(property "Value" "100nF"
 			(at 132.08 39.37 0)
 			(effects
 				(font
@@ -6084,7 +6093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.2352 41.91 0)
 			(effects
 				(font
@@ -6268,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 77.47 0)
 			(effects
 				(font
@@ -6304,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C19666"
 			(at 57.15 73.66 0)
 			(effects
 				(font
@@ -6363,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 140.6652 161.29 0)
 			(effects
 				(font
@@ -6399,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C29823"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -6799,7 +6808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -6808,7 +6817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.1752 83.82 0)
 			(effects
 				(font
@@ -6984,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 46.482 73.66 90)
 			(effects
 				(font
@@ -7020,7 +7029,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C22939"
 			(at 48.26 73.66 0)
 			(effects
 				(font
@@ -7071,7 +7080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 129.2352 161.29 0)
 			(effects
 				(font
@@ -7107,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C29823"
 			(at 128.27 157.48 0)
 			(effects
 				(font
@@ -7252,7 +7261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 170.18 81.28 0)
 			(effects
 				(font
@@ -7261,7 +7270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 83.82 0)
 			(effects
 				(font
@@ -7349,7 +7358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 69.85 167.64 0)
 			(effects
 				(font
@@ -7542,7 +7551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 90.17 0)
 			(effects
 				(font
@@ -7578,7 +7587,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C19666"
 			(at 38.1 86.36 0)
 			(effects
 				(font
@@ -7723,7 +7732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 36.322 73.66 90)
 			(effects
 				(font
@@ -7759,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C22939"
 			(at 38.1 73.66 0)
 			(effects
 				(font
@@ -8057,7 +8066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 245.872 91.44 90)
 			(effects
 				(font
@@ -8093,7 +8102,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C17936"
 			(at 247.65 91.44 0)
 			(effects
 				(font
@@ -8232,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NRVBSS14HE"
 			(at 187.96 80.9625 90)
 			(effects
 				(font
@@ -8241,7 +8250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8397,7 +8406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000pF"
+		(property "Value" "1uF"
 			(at 26.035 179.07 0)
 			(effects
 				(font
@@ -8406,7 +8415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 37.7952 181.61 0)
 			(effects
 				(font
@@ -8425,6 +8434,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 36.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part No" "C52923"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -8562,7 +8580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 76.962 128.27 90)
 			(effects
 				(font
@@ -8598,7 +8616,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C17902"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -8629,7 +8647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d0296b53-2c83-4c97-9239-d591c9c60da6")
 		(property "Reference" "L1"
 			(at 161.29 100.33 90)
@@ -8639,7 +8657,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "XAL7070-332MEC"
 			(at 161.29 102.87 90)
 			(effects
 				(font
@@ -8647,7 +8665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "https://nl.mouser.com/datasheet/2/597/xal7070-270690.pdf"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -8690,6 +8708,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "V_{max}" ""
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9019,7 +9045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 41.91 167.64 0)
 			(effects
 				(font
@@ -9143,7 +9169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NRVBSS14HE"
 			(at 273.05 32.7025 90)
 			(effects
 				(font
@@ -9152,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 270.51 31.75 0)
 			(effects
 				(font
@@ -9366,7 +9392,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky"
+		(property "Value" "NRVBSS14HE"
 			(at 256.54 33.3374 90)
 			(effects
 				(font
@@ -9375,7 +9401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -9666,7 +9692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 184.15 0)
 			(effects
 				(font
@@ -9702,7 +9728,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C45783"
 			(at 128.27 180.34 0)
 			(effects
 				(font
@@ -9752,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150uF"
+		(property "Value" "GYA1V151MCQ1GS"
 			(at 154.94 180.34 0)
 			(effects
 				(font
@@ -9761,7 +9787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 152.0952 184.15 0)
 			(effects
 				(font
@@ -9797,7 +9823,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C251029"
 			(at 151.13 180.34 0)
 			(effects
 				(font
@@ -9806,7 +9832,7 @@
 				(hide yes)
 			)
 		)
-		(property "V_{max}" "50V"
+		(property "V_{max}" "35V"
 			(at 156.845 182.88 0)
 			(effects
 				(font

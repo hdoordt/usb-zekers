@@ -2537,7 +2537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 240.9952 68.58 0)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C1664"
 			(at 240.03 64.77 0)
 			(effects
 				(font
@@ -2728,7 +2728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 227.0252 68.58 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C1664"
 			(at 226.06 64.77 0)
 			(effects
 				(font
@@ -2824,7 +2824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 196.85 53.34 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 214.3252 68.58 0)
 			(effects
 				(font
@@ -3420,7 +3420,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C24497"
 			(at 213.36 64.77 0)
 			(effects
 				(font
@@ -3719,7 +3719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 66.04 142.24 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 43.18 74.93 0)
 			(effects
 				(font

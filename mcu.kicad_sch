@@ -3611,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 70.8152 176.53 0)
 			(effects
 				(font
@@ -3707,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6852 176.53 0)
 			(effects
 				(font
@@ -4190,7 +4190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 178.562 138.43 90)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C17936"
 			(at 180.34 138.43 0)
 			(effects
 				(font
@@ -4286,7 +4286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 59.3852 176.53 0)
 			(effects
 				(font
@@ -4322,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C52923"
 			(at 58.42 172.72 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 231.14 34.29 0)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -4995,7 +4995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 169.672 138.43 90)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C17936"
 			(at 171.45 138.43 0)
 			(effects
 				(font
@@ -5091,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 176.53 0)
 			(effects
 				(font
@@ -5127,7 +5127,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part No" ""
+		(property "JLCPCB Part No" "C19666"
 			(at 33.02 172.72 0)
 			(effects
 				(font
